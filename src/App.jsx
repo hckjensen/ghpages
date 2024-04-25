@@ -1,10 +1,14 @@
 import ReactGA from "react-ga4";
+import { useEffect } from "react";
 
 import './App.css'
 
 function App() {
 
-  ReactGA.initialize("G-KF58HRH7TQ");
+  useEffect(() => {
+    ReactGA.initialize("G-KF58HRH7TQ");
+  })
+
   return (
     <>
 
