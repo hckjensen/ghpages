@@ -1,0 +1,22 @@
+.navBar {
+
+    ul {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        list-style: none;
+        background-color: grey;
+
+
+
+        li {
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+}
